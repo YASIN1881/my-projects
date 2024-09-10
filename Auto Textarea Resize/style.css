@@ -1,0 +1,15 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+textarea{
+    /* overflow-y: heidden; */
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+}

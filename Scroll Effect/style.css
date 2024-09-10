@@ -1,0 +1,66 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    line-height: 1.6;
+    font-size: 1.6rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8rem;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.header-left p{
+    padding-left: 8rem;
+    font-size: 3rem;
+}
+
+.header-right__items{
+    padding-right: 8rem;
+    display: flex;
+    gap: 8rem;
+}
+
+.header-right__items li{
+    list-style: none;
+    font-size: 2rem;
+}
+
+.box{
+    margin-top: 18rem;
+    width: 90%;
+    margin-left: 8rem;
+}
+
+.title{
+    font-size: 5.5rem;
+    padding-right: 22rem;
+    
+}
+
+.description{
+    color: blue;
+    display: contents;
+}
+
+.box p{
+    margin-top: 2rem;
+    font-size: 4rem;
+}
